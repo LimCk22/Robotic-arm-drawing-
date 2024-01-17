@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+	body {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100vh;
+  	margin: 0;
+	}
+ 
+	/* Common button styles */
+	.shape-button {
+  	display: inline-block;
+  	padding: 10px 20px;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	cursor: pointer;
+  	margin: 10px;
+  	border: none;
+  	outline: none;
+  	border-radius: 5px;
+	}
+ 
+	/* Rectangle button */
+	.Rectangle-button {
+  	background-color: rgba(255, 0, 0, 0.8); /* Red with 80% opacity */
+	}
+ 
+	/* Trapezium button */
+	.Trapezium-button {
+  	position: relative;
+  	background-color: rgba(0, 0, 255, 0.8); /* Blue with 80% opacity */
+  	overflow: hidden;
+	}
+	/* Line button */
+	.Line-button {
+  	position: relative;
+  	background-color: rgba(128, 0, 128, 0.8); /* Purple with 80% opacity */
+	}
+	.reset-button {
+  	position: relative;
+  	background-color: rgba(50, 0, 128, 0.8); /* Purple with 80% opacity */
+	}
+  </style>
+</head>
+<body>
+  <h1>Select the shape you want:</h1>
+  <br>
+ 
+  <!-- Rectangle button -->
+<form action="mycobot.py" method="post">
+  <button class="shape-button Rectangle-button btn-42">Rectangle</button>
+ 
+  <!-- Trapezium button -->
+<form action="your_python_script.py" method="post">
+  <button class="shape-button Trapezium-button">Trapezium</button>
+ 
+  <!-- Line button -->
+<form action="your_python_script.py" method="post">
+  <button class="shape-button Line-button">Line</button>
+ 
+  <button class="shape-button reset-button">↺ reset</button>
+</body>
+</html>
+
