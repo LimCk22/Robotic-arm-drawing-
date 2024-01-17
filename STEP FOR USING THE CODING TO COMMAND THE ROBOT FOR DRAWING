@@ -1,0 +1,13 @@
+Step 1 : Save the coding in the notepad or other programming app like Visual Studio as an HTML file and run the file in the web browser like Microsoft edge. The interface for controlling the robotic arm will appear on the interface 
+
+Step 2 : Save the coding for gripper, release, trapezium, rectangle and line in the file type of python and open it in the Visual Studio
+
+Step 3: Run the coding for gripper first to close the gripper and hold the pen 
+
+Step 4: In the user interface click the trapezium button and it will go to Visual Studio and open the trapezium file. After opening the trapezium file, run the file and the robot arm will perform drawing for the trapezium
+
+Step 5 : If need to draw a rectangle, go back into the user interface and click the button for rectangle shape. Then, it will go to Visual Studio and open the rectangle file. After opening the rectangle file, run the file and the robot arm will perform drawing for the rectangle. 
+
+Step 6 : If need to draw a rectangle, go back into the user interface and click the button for Line. Then, it will go to Visual Studio and open the Line file. After opening the Line file, run the file and the robot arm will perform drawing for the Line.
+
+Step 7 : If need to release the joint of the robotic arm, open the release file in the Visual Studio and run the code. All the joint of the robotic arm will be in releasing mode and user can move each joint freely. 
